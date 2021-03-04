@@ -1,0 +1,142 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+	width:100%;
+    padding:8px;
+    position:relative;
+}
+
+.fullwidthH{
+	text-align:center;
+    font-weight:bold;
+    font-size:1.75em;
+    margin-top:24px;
+    margin-bottom:8px;
+}
+
+section{
+	padding:16px;
+    text-align: justify;
+    border: 1px solid #000000;
+    border-radius:6px;
+    margin:16px;
+    background-color:#FFE4C4;
+    height:264px;
+}
+
+.c3-block{
+    float:left;
+    width:30%;
+    overflow-y:hidden;
+}
+
+.c3-block-right{
+	float:right;
+    width:30%;
+    overflow-y:hidden;
+}
+
+.sectionTitle{
+	border-bottom:1px solid #000000;
+    border-left:1px solid #000000;
+    width:50%;
+    text-align:center;
+    float:right;
+    display:block;
+    margin-bottom:8px;
+    position:relative;
+    margin-top:-16px;
+    margin-right:-16px;
+    padding: 4px  0px;
+    border-bottom-left-radius:6px;
+    border-top-right-radius:6px;
+    color:#FFFFFF;
+    font-size:1.25em;
+}
+
+.sectionText{
+	width:100%;
+    float:left;
+}
+
+.sec1back{
+	background-color:#556B2F;
+}
+
+.sec2back{
+	background-color:#8B0000;
+}
+
+.sec3back{
+	background-color:#FF6347;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .c3-block {
+    width:48%;
+    float:left;
+    margin:0px;
+    height:232px;
+    overflow-y:hidden;
+  }
+  
+  .c2-block-right{
+  	float:right;
+    width:48%;
+    margin:0px;
+    height:232px;
+    overflow-y:hidden;
+  }
+  
+  .c1-block-full{
+  	width:100%;
+    height:148px;
+    margin: 24px 0px;
+    overflow-y:hidden;
+  }
+  
+  .fullwidthH{
+  	margin-top:24px;
+    margin-bottom:8px;
+  }
+  
+  .container{
+  	padding:24px;
+  }
+  
+}
+
+@media screen and (max-width: 767px){
+ 
+  .c3-block {
+    width:100%;
+    margin: 12px 0px;
+    height:232px;
+    overflow-y:hidden;
+  }
+  
+  .c3-block-right{
+  	width:100%;
+    margin:12px 0px;
+    margin-bottom:24px;
+    height:232px;
+    overflow-y:hidden;
+  }
+  
+  .container{
+  	padding:24px;
+  }
+  
+  .fullwidthH{
+  	margin-bottom:-8px;
+    margin-top:24px;
+  }
+  
+}
